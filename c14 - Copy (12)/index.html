@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Chain Reaction</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='18' cy='18' r='10' fill='%23ff5a62'/%3E%3Ccircle cx='46' cy='18' r='10' fill='%2316bfe8'/%3E%3Ccircle cx='18' cy='46' r='10' fill='%2378d447'/%3E%3Ccircle cx='46' cy='46' r='10' fill='%23ffc43b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=20260608-mobile-7x7-centered-grid">
+</head>
+<body class="intro-open">
+  <main class="app-shell">
+    <section class="intro-panel" id="introPanel" aria-label="Color Wars start screen">
+      <button
+        id="settingsButton"
+        class="settings-button"
+        type="button"
+        aria-label="Open settings"
+        title="Open settings"
+      >
+        <svg class="settings-align-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M5 6h14"></path>
+          <path d="M10 10h9"></path>
+          <path d="M3 14h16"></path>
+          <path d="M12 18h7"></path>
+        </svg>
+      </button>
+      <div class="intro-copy">
+        <button class="back-button hold-back-button" type="button" aria-label="Back">
+          <span class="hold-back-icon" aria-hidden="true"></span>
+        </button>
+        <h1>COLOR WARS</h1>
+        <p>Occupy the field with your color.</p>
+      </div>
+      <div class="intro-players" aria-hidden="true">
+        <span class="intro-player intro-player-blue"></span>
+        <span class="intro-player intro-player-green"></span>
+        <span class="intro-player intro-player-red"></span>
+        <span class="intro-player intro-player-amber"></span>
+      </div>
+      <button id="playButton" class="play-button" type="button">PLAY</button>
+
+      <section class="settings-bar" aria-label="Match setup">
+        <div class="setup-heading">
+          <span class="setup-dot setup-dot-red"></span>
+          <span class="setup-dot setup-dot-blue"></span>
+          <span class="setup-dot setup-dot-green"></span>
+        </div>
+        <select id="aiSeatSelect" hidden aria-hidden="true">
+          <option value="second" selected>AI Second</option>
+        </select>
+        <div class="controls">
+          <label>
+            Mode
+            <select id="modeSelect">
+              <option value="human">Human vs Human</option>
+              <option value="ai">Human vs AI</option>
+              <option value="online">Online PvP</option>
+            </select>
+          </label>
+          <label>
+            Difficulty
+            <select id="aiDifficultySelect">
+              <option value="easy">Easy</option>
+              <option value="medium" selected>Medium</option>
+              <option value="hard">Hard</option>
+              <option value="adaptive">Adaptive</option>
+            </select>
+          </label>
+          <label>
+            Board
+            <select id="presetSelect">
+              <option value="5x5">5 x 5</option>
+              <option value="7x7">7 x 7</option>
+            </select>
+          </label>
+          <label>
+            Players
+            <select id="playerCountSelect">
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </label>
+        </div>
+        <section class="online-lobby" id="onlineLobby" aria-label="Online matchmaking" hidden>
+          <div class="online-lobby-header">
+            <div>
+              <h2>Searching for players</h2>
+              <p id="onlineStatus">Waiting for players...</p>
+            </div>
+            <div class="matchmaking-count" id="onlineJoinedCount">
+              <span>Joined</span>
+              <strong>0/2</strong>
+            </div>
+          </div>
+          <p class="matchmaking-summary" id="onlineMatchSummary">Matched players will appear here.</p>
+          <div class="online-player-list" id="onlinePlayerList" aria-live="polite"></div>
+          <div class="online-lobby-actions">
+            <button id="onlineRejoinButton" class="online-action-button rejoin" type="button" hidden>Rejoin Match</button>
+            <button id="onlineForfeitButton" class="online-action-button forfeit" type="button" hidden>Forfeit Match</button>
+            <button id="onlineCancelButton" class="online-action-button secondary" type="button">Cancel</button>
+          </div>
+        </section>
+        <button id="applyButton" class="setup-play-button" type="button">PLAY</button>
+      </section>
+    </section>
+
+    <section class="settings-panel" id="settingsPanel" aria-label="Settings" hidden>
+      <div class="settings-card">
+        <button
+          id="settingsBackButton"
+          class="hold-back-button settings-back-button"
+          type="button"
+          aria-label="Back to menu"
+          title="Back to menu"
+        >
+          <span class="hold-back-icon" aria-hidden="true"></span>
+        </button>
+        <h2>SETTINGS</h2>
+
+        <section class="settings-section" aria-label="Sound settings">
+          <div class="settings-section-copy">
+            <h3>Sound</h3>
+            <p id="volumeValue">Volume 100%</p>
+            <p id="soundStatus" class="sound-status">Tap Enable Sound</p>
+          </div>
+          <div class="settings-sound-actions">
+            <div class="sound-controls" id="soundControls" aria-label="Sound controls">
+              <button
+                id="volumeDownButton"
+                class="volume-button"
+                type="button"
+                aria-label="Decrease sound volume"
+                title="Decrease sound volume"
+              >
+                <span class="volume-symbol" aria-hidden="true">-</span>
+              </button>
+              <button
+                id="soundToggle"
+                class="sound-toggle"
+                type="button"
+                aria-label="Mute sound"
+                title="Mute sound"
+              >
+                <span class="sound-icon" aria-hidden="true">
+                  <span class="sound-icon-speaker"></span>
+                  <span class="sound-icon-wave sound-icon-wave-one"></span>
+                  <span class="sound-icon-wave sound-icon-wave-two"></span>
+                  <span class="sound-icon-slash"></span>
+                </span>
+              </button>
+              <button
+                id="volumeUpButton"
+                class="volume-button"
+                type="button"
+                aria-label="Increase sound volume"
+                title="Increase sound volume"
+              >
+                <span class="volume-symbol" aria-hidden="true">+</span>
+              </button>
+            </div>
+            <button id="soundEnableButton" class="sound-enable-button" type="button">Enable Sound</button>
+          </div>
+        </section>
+
+        <section class="settings-section username-section" aria-label="Username settings">
+          <div class="settings-section-copy">
+            <h3>Username</h3>
+            <p id="usernameStatus">Optional for online matches</p>
+          </div>
+          <div class="username-controls">
+            <input
+              id="usernameInput"
+              class="username-input"
+              type="text"
+              maxlength="16"
+              autocomplete="nickname"
+              placeholder="Your name"
+              aria-label="Online username"
+            >
+            <button id="usernameSaveButton" class="username-save-button" type="button">Save</button>
+          </div>
+        </section>
+
+        <section class="settings-section color-section" aria-label="My color settings">
+          <div class="settings-section-copy">
+            <h3>My Color</h3>
+            <p id="colorValue">Red</p>
+          </div>
+          <div class="color-picker" id="colorPicker" role="group" aria-label="Choose my color"></div>
+        </section>
+
+        <section class="settings-section" aria-label="Theme settings">
+          <div class="settings-section-copy">
+            <h3>Theme</h3>
+            <p id="themeValue">Light</p>
+          </div>
+          <button
+            id="themeToggle"
+            class="theme-toggle settings-theme-toggle"
+            type="button"
+            aria-label="Switch to dark theme"
+            title="Switch to dark theme"
+          >
+            <span class="theme-icon theme-icon-moon" aria-hidden="true"></span>
+            <span class="theme-icon theme-icon-sun" aria-hidden="true"></span>
+          </button>
+        </section>
+      </div>
+    </section>
+
+    <section class="game-stage">
+      <button
+        id="gameBackButton"
+        class="hold-back-button game-back-button"
+        type="button"
+        aria-label="Hold to return to options"
+        title="Hold to return to options"
+      >
+        <span class="hold-back-icon" aria-hidden="true"></span>
+      </button>
+      <div class="turn-badge" id="turnBanner">Red to move</div>
+      <div class="floating-status floating-status-top" id="legend"></div>
+      <div class="toss-overlay" id="tossOverlay" hidden aria-hidden="true" aria-live="polite">
+        <div class="toss-card">
+          <div class="toss-title">TOSS</div>
+          <div class="toss-arena">
+            <div class="toss-ring" id="tossRing"></div>
+            <div class="toss-coin" id="tossCoin">
+              <span id="tossCoinText">?</span>
+            </div>
+          </div>
+          <div class="toss-result" id="tossResult">Choosing first move</div>
+        </div>
+      </div>
+
+      <div class="board-shell">
+        <div class="board-frame">
+          <div class="board" id="board" aria-label="Chain Reaction board"></div>
+          <div class="board-fx" id="boardFx" aria-hidden="true"></div>
+        </div>
+        <div class="message-stack" hidden aria-hidden="true">
+          <div class="message" id="message"></div>
+          <div class="ai-status" id="aiStatus"></div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <template id="cellTemplate">
+    <button class="cell" type="button">
+      <span class="cell-capacity"></span>
+      <span class="dots"></span>
+    </button>
+  </template>
+
+  <template id="playerCardTemplate">
+    <article class="player-card">
+      <span class="player-score"></span>
+    </article>
+  </template>
+
+  <script src="app.js?v=20260608-navigation-state-fix"></script>
+</body>
+</html>

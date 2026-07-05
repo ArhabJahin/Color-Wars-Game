@@ -1,0 +1,2660 @@
+D:.
+├───artifacts
+│   ├───cdp-debug-azK5DS
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───4f5ba0ba-6980-43c6-a53a-c6187f3b273b
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-debug-gliEf1
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───2077916a-45df-43ed-b9e6-a1ca0be22625
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-debug-v9IJYP
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───2e884a91-0463-451c-90ad-922f2cba3eca
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───ddc0d0c4-c80e-4a1b-b8f9-64e9934a75ac
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-2
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───65306a1b-c1b1-4b54-a24a-1b7adef48245
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-file2
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───1e388d7e-5e43-4282-9f72-8e8ecc60b8af
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Download Service
+│   │   │   │   ├───EntryDB
+│   │   │   │   └───Files
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-http
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───582724c8-e9e6-47fe-b546-d2e251995dc1
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-http2
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───cab496b7-52a6-4b98-a12c-af9c2b414992
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-mobile
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───7080e4a4-225f-4ecb-81b5-5bf258056114
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Download Service
+│   │   │   │   ├───EntryDB
+│   │   │   │   └───Files
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-profile-play
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───AutofillAiModelCache
+│   │   │   ├───AutofillStrikeDatabase
+│   │   │   ├───blob_storage
+│   │   │   │   └───68ac87aa-29b0-4642-aa41-52c0310fcdb7
+│   │   │   ├───BudgetDatabase
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Download Service
+│   │   │   │   ├───EntryDB
+│   │   │   │   └───Files
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───Feature Engagement Tracker
+│   │   │   │   ├───AvailabilityDB
+│   │   │   │   └───EventDB
+│   │   │   ├───GCM Store
+│   │   │   │   └───Encryption
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───optimization_guide_hint_cache_store
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───agimnkijcaahngcdmfeangaknmldooml
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fhihpiojkbmbpdjeoajapmgkhlnakfjf
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───kefjledonklijopmnomlcbpllchaibag
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───mdpkiolbdkhdjpekfbkbmhigcaggjagi
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-settings-final-anwt32
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───fdf5c4b7-8746-4613-8df2-1e00b505235d
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-settings-ui
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───de738cfc-60c9-410a-94d0-531ea66f60f6
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───cdp-settings-ui-2
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───0558488c-d75d-4392-be44-944d7a0a2371
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───chrome-flags-3hD5KH
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───b8b5bf5b-1139-45c9-afe9-3e97df5eb569
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───chrome-old-esJsGA
+│   │   └───Crashpad
+│   │       ├───attachments
+│   │       └───reports
+│   ├───chrome-profile
+│   │   ├───AmountExtractionHeuristicRegexes
+│   │   ├───AutofillStates
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───CookieReadinessList
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   └───reports
+│   │   ├───Crowd Deny
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───b6ca4758-4692-4615-b8eb-86a7af50e6d3
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───chrome_cart_db
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───Extension State
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Segmentation Platform
+│   │   │   │   ├───SegmentInfoDB
+│   │   │   │   ├───SignalDB
+│   │   │   │   └───SignalStorageConfigDB
+│   │   │   ├───Service Worker
+│   │   │   │   ├───Database
+│   │   │   │   └───ScriptCache
+│   │   │   │       └───index-dir
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Sync Data
+│   │   │   │   └───LevelDB
+│   │   │   ├───Web Applications
+│   │   │   │   ├───Manifest Resources
+│   │   │   │   │   ├───aghbiahbpaijignceidepookljebhfak
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   ├───fmgjjmmmlfnkbppncabfkddbjimcfncm
+│   │   │   │   │   │   ├───Icons
+│   │   │   │   │   │   ├───Icons Maskable
+│   │   │   │   │   │   ├───Icons Monochrome
+│   │   │   │   │   │   └───Trusted Icons
+│   │   │   │   │   │       ├───Icons
+│   │   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │   │       └───Icons Monochrome
+│   │   │   │   │   └───mpnpojknpmmopombnjdcgaaiekajbnjb
+│   │   │   │   │       ├───Icons
+│   │   │   │   │       ├───Icons Maskable
+│   │   │   │   │       ├───Icons Monochrome
+│   │   │   │   │       └───Trusted Icons
+│   │   │   │   │           ├───Icons
+│   │   │   │   │           ├───Icons Maskable
+│   │   │   │   │           └───Icons Monochrome
+│   │   │   │   └───Temp
+│   │   │   └───WebStorage
+│   │   ├───extensions_crx_cache
+│   │   ├───FileTypePolicies
+│   │   ├───FirstPartySetsPreloaded
+│   │   ├───GraphiteDawnCache
+│   │   ├───GrShaderCache
+│   │   ├───hyphen-data
+│   │   ├───MediaFoundationWidevineCdm
+│   │   │   └───x64
+│   │   ├───MEIPreload
+│   │   ├───OnDeviceHeadSuggestModel
+│   │   ├───OpenCookieDatabase
+│   │   ├───OptimizationHints
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───PrivacySandboxAttestationsPreloaded
+│   │   ├───ProbabilisticRevealTokenRegistry
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───segmentation_platform
+│   │   ├───ShaderCache
+│   │   ├───SSLErrorAssistant
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───TpcdMetadata
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───WasmTtsEngine
+│   │   ├───WidevineCdm
+│   │   └───ZxcvbnData
+│   ├───edge-cdp-test-KKpfTB
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───Asset Store
+│   │   │   ├───blob_storage
+│   │   │   │   └───4a7cdfed-c1ce-44c4-b536-ee0b77dcb417
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgeEDrop
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───EntityExtraction
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   │                   └───cache
+│   │   │   │                       └───index-dir
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-cdp-test-rt8ZIX
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───Asset Store
+│   │   │   ├───blob_storage
+│   │   │   │   └───012dd6b8-e7b5-46f0-8549-0ad3554de59d
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgeEDrop
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───EntityExtraction
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   │                   └───cache
+│   │   │   │                       └───index-dir
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-debug-eGjgNm
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   └───Default
+│   │       ├───Cache
+│   │       │   ├───Cache_Data
+│   │       │   └───No_Vary_Search
+│   │       ├───ClientCertificates
+│   │       ├───Code Cache
+│   │       │   ├───js
+│   │       │   └───wasm
+│   │       ├───Network
+│   │       ├───Shared Dictionary
+│   │       ├───Site Characteristics Database
+│   │       └───Sync Data
+│   │           └───LevelDB
+│   ├───edge-debug-G8XkGx
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-flags-CO7isD
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Local Storage
+│   │   │   │   └───leveldb
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Session Storage
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   └───wasm
+│   │   │   │               └───Local Storage
+│   │   │   │                   └───leveldb
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Travel
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───EdgeOnnxRuntimeDirectML
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-profile
+│   │   └───Crashpad
+│   │       ├───attachments
+│   │       └───reports
+│   ├───edge-quick-Yqunn4
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───52c23372-2f85-4d47-b75e-abf9a87f5a52
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgeEDrop
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   │                   └───cache
+│   │   │   │                       └───index-dir
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-settings-final-GrPhk1
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───f46c7d3f-83ac-440a-afbb-33d96b801534
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgeEDrop
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   │                   └───cache
+│   │   │   │                       └───index-dir
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───edge-settings-final-uOUr3Y
+│   │   ├───Autofill
+│   │   ├───AutoLaunchProtocolsComponent
+│   │   ├───CertificateRevocation
+│   │   ├───component_crx_cache
+│   │   ├───Crashpad
+│   │   │   ├───attachments
+│   │   │   ├───reports
+│   │   │   └───temp
+│   │   ├───Default
+│   │   │   ├───blob_storage
+│   │   │   │   └───a662d739-9860-460e-acd1-3614ed3fe358
+│   │   │   ├───Cache
+│   │   │   │   ├───Cache_Data
+│   │   │   │   └───No_Vary_Search
+│   │   │   ├───ClientCertificates
+│   │   │   ├───Code Cache
+│   │   │   │   ├───js
+│   │   │   │   │   └───index-dir
+│   │   │   │   └───wasm
+│   │   │   │       └───index-dir
+│   │   │   ├───commerce_subscription_db
+│   │   │   ├───DawnGraphiteCache
+│   │   │   ├───DawnWebGPUCache
+│   │   │   ├───discounts_db
+│   │   │   ├───discount_infos_db
+│   │   │   ├───EdgePushStorageWithConnectTokenAndKey
+│   │   │   ├───Extension Rules
+│   │   │   ├───Extension Scripts
+│   │   │   ├───GPUCache
+│   │   │   ├───Network
+│   │   │   ├───Nurturing
+│   │   │   ├───parcel_tracking_db
+│   │   │   ├───PersistentOriginTrials
+│   │   │   ├───Safe Browsing Network
+│   │   │   ├───Sessions
+│   │   │   ├───Shared Dictionary
+│   │   │   │   └───cache
+│   │   │   │       └───index-dir
+│   │   │   ├───shared_proto_db
+│   │   │   │   └───metadata
+│   │   │   ├───Site Characteristics Database
+│   │   │   ├───Storage
+│   │   │   │   └───ext
+│   │   │   │       └───ihmafllikibpmigkcoadcmckbfhibefp
+│   │   │   │           └───def
+│   │   │   │               ├───Cache
+│   │   │   │               │   ├───Cache_Data
+│   │   │   │               │   └───No_Vary_Search
+│   │   │   │               ├───Code Cache
+│   │   │   │               │   ├───js
+│   │   │   │               │   │   └───index-dir
+│   │   │   │               │   └───wasm
+│   │   │   │               │       └───index-dir
+│   │   │   │               ├───DawnGraphiteCache
+│   │   │   │               ├───DawnWebGPUCache
+│   │   │   │               ├───GPUCache
+│   │   │   │               ├───Network
+│   │   │   │               └───Shared Dictionary
+│   │   │   │                   └───cache
+│   │   │   │                       └───index-dir
+│   │   │   └───Sync Data
+│   │   │       └───LevelDB
+│   │   ├───Domain Actions
+│   │   ├───EADPData Component
+│   │   ├───Edge Data Protection Lists
+│   │   ├───Edge Notifications
+│   │   ├───Edge Shopping
+│   │   ├───Edge Wallet
+│   │   ├───EdgeLanguageDetectionModel
+│   │   ├───extensions_crx_cache
+│   │   ├───hyphen-data
+│   │   ├───MEIPreload
+│   │   ├───Nurturing
+│   │   ├───OriginTrials
+│   │   ├───PKIMetadata
+│   │   ├───ProvenanceData
+│   │   ├───ProvenanceDataAllowList
+│   │   ├───ProvenanceDataTensors
+│   │   ├───RecoveryImproved
+│   │   ├───Safe Browsing
+│   │   ├───SafetyTips
+│   │   ├───ShaderCache
+│   │   ├───SmartScreen
+│   │   │   └───RemoteData
+│   │   ├───Speech Recognition
+│   │   ├───Subresource Filter
+│   │   │   └───Unindexed Rules
+│   │   ├───Trust Protection Lists
+│   │   ├───TrustTokenKeyCommitments
+│   │   ├───Typosquatting
+│   │   ├───Web Notifications Deny List
+│   │   ├───Well Known Domains
+│   │   ├───WidevineCdm
+│   │   ├───WorkspacesNavigationComponent
+│   │   └───ZxcvbnData
+│   ├───responsive-chrome-profile
+│   └───settings-icon-chrome-profile
+├───js
+└───server
+    └───node_modules
+        ├───.bin
+        ├───@socket.io
+        │   └───component-emitter
+        │       └───lib
+        │           ├───cjs
+        │           └───esm
+        ├───@types
+        │   ├───cors
+        │   ├───node
+        │   │   ├───assert
+        │   │   ├───compatibility
+        │   │   ├───dns
+        │   │   ├───fs
+        │   │   ├───inspector
+        │   │   ├───path
+        │   │   ├───readline
+        │   │   ├───stream
+        │   │   ├───test
+        │   │   ├───timers
+        │   │   ├───ts5.6
+        │   │   │   └───compatibility
+        │   │   ├───ts5.7
+        │   │   │   └───compatibility
+        │   │   ├───util
+        │   │   ├───web-globals
+        │   │   └───zlib
+        │   └───ws
+        ├───accepts
+        ├───array-flatten
+        ├───base64id
+        │   └───lib
+        ├───body-parser
+        │   └───lib
+        │       └───types
+        ├───bytes
+        ├───call-bind-apply-helpers
+        │   ├───.github
+        │   └───test
+        ├───call-bound
+        │   ├───.github
+        │   └───test
+        ├───content-disposition
+        ├───content-type
+        ├───cookie
+        ├───cookie-signature
+        ├───cors
+        │   └───lib
+        ├───debug
+        │   └───src
+        ├───depd
+        │   └───lib
+        │       └───browser
+        ├───destroy
+        ├───dunder-proto
+        │   ├───.github
+        │   └───test
+        ├───ee-first
+        ├───encodeurl
+        ├───engine.io
+        │   ├───build
+        │   │   ├───contrib
+        │   │   ├───parser-v3
+        │   │   ├───transports
+        │   │   └───transports-uws
+        │   └───node_modules
+        │       ├───debug
+        │       │   └───src
+        │       └───ms
+        ├───engine.io-parser
+        │   └───build
+        │       ├───cjs
+        │       │   └───contrib
+        │       └───esm
+        │           └───contrib
+        ├───es-define-property
+        │   ├───.github
+        │   └───test
+        ├───es-errors
+        │   ├───.github
+        │   └───test
+        ├───es-object-atoms
+        │   ├───.github
+        │   └───test
+        ├───escape-html
+        ├───etag
+        ├───express
+        │   └───lib
+        │       ├───middleware
+        │       └───router
+        ├───finalhandler
+        ├───forwarded
+        ├───fresh
+        ├───function-bind
+        │   ├───.github
+        │   └───test
+        ├───get-intrinsic
+        │   ├───.github
+        │   └───test
+        ├───get-proto
+        │   ├───.github
+        │   └───test
+        ├───gopd
+        │   ├───.github
+        │   └───test
+        ├───has-symbols
+        │   ├───.github
+        │   └───test
+        │       └───shams
+        ├───hasown
+        │   └───.github
+        ├───http-errors
+        ├───iconv-lite
+        │   ├───encodings
+        │   │   └───tables
+        │   └───lib
+        ├───inherits
+        ├───ipaddr.js
+        │   └───lib
+        ├───math-intrinsics
+        │   ├───.github
+        │   ├───constants
+        │   └───test
+        ├───media-typer
+        ├───merge-descriptors
+        ├───methods
+        ├───mime
+        │   └───src
+        ├───mime-db
+        ├───mime-types
+        ├───ms
+        ├───negotiator
+        │   └───lib
+        ├───object-assign
+        ├───object-inspect
+        │   ├───.github
+        │   ├───example
+        │   └───test
+        │       └───browser
+        ├───on-finished
+        ├───parseurl
+        ├───path-to-regexp
+        ├───proxy-addr
+        ├───qs
+        │   ├───.github
+        │   ├───dist
+        │   ├───lib
+        │   └───test
+        ├───range-parser
+        ├───raw-body
+        ├───safe-buffer
+        ├───safer-buffer
+        ├───send
+        │   └───node_modules
+        │       └───ms
+        ├───serve-static
+        ├───setprototypeof
+        │   └───test
+        ├───side-channel
+        │   ├───.github
+        │   └───test
+        ├───side-channel-list
+        │   ├───.github
+        │   └───test
+        ├───side-channel-map
+        │   ├───.github
+        │   └───test
+        ├───side-channel-weakmap
+        │   ├───.github
+        │   └───test
+        ├───socket.io
+        │   ├───client-dist
+        │   ├───dist
+        │   └───node_modules
+        │       ├───debug
+        │       │   └───src
+        │       └───ms
+        ├───socket.io-adapter
+        │   ├───dist
+        │   │   └───contrib
+        │   └───node_modules
+        │       ├───debug
+        │       │   └───src
+        │       └───ms
+        ├───socket.io-parser
+        │   ├───build
+        │   │   ├───cjs
+        │   │   ├───esm
+        │   │   └───esm-debug
+        │   └───node_modules
+        │       ├───debug
+        │       │   └───src
+        │       └───ms
+        ├───statuses
+        ├───toidentifier
+        ├───type-is
+        ├───undici-types
+        ├───unpipe
+        ├───utils-merge
+        ├───vary
+        └───ws
+            └───lib
