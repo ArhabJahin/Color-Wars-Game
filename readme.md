@@ -211,7 +211,7 @@ Please do not redistribute or republish the project without permission from the 
 **Arhab Jahin**
 
 GitHub: https://github.com/ArhabJahin
-*email: arhabjahin.b@gmail.com*
+email: arhabjahin.b@gmail.com
 
 ---
 
