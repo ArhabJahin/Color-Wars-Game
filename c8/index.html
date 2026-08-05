@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Wars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="intro-open">
+  <main class="app-shell">
+    <section class="intro-panel" id="introPanel" aria-label="Color Wars start screen">
+      <div class="intro-copy">
+        <button class="back-button" type="button" aria-label="Back">&lsaquo;</button>
+        <h1>COLOR WARS</h1>
+        <p>Try to occupy the whole field with your color. Click your circles and capture new squares when you reach 4 white dots.</p>
+      </div>
+      <div class="intro-players" aria-hidden="true">
+        <span class="intro-player intro-player-blue"></span>
+        <span class="intro-player intro-player-green"></span>
+        <span class="intro-player intro-player-red"></span>
+        <span class="intro-player intro-player-amber"></span>
+      </div>
+      <button id="playButton" class="play-button" type="button">PLAY</button>
+    </section>
+
+    <section class="settings-bar">
+      <div class="controls">
+        <div class="controls-title">COLOR WARS</div>
+        <label>
+          Mode
+          <select id="modeSelect">
+            <option value="human">Human vs Human</option>
+            <option value="ai">Human vs AI</option>
+          </select>
+        </label>
+        <label>
+          AI Seat
+          <select id="aiSeatSelect">
+            <option value="second">AI Second</option>
+            <option value="first">AI First</option>
+          </select>
+        </label>
+        <label>
+          Difficulty
+          <select id="aiDifficultySelect">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+            <option value="adaptive">Adaptive</option>
+          </select>
+        </label>
+        <label>
+          Board
+          <select id="presetSelect">
+            <option value="6x8">6 x 8</option>
+            <option value="5x5">5 x 5</option>
+            <option value="9x6">9 x 6</option>
+            <option value="custom">Custom</option>
+          </select>
+        </label>
+        <label>
+          Rows
+          <input id="rowsInput" type="number" min="3" max="12" value="6">
+        </label>
+        <label>
+          Columns
+          <input id="colsInput" type="number" min="3" max="12" value="8">
+        </label>
+        <label>
+          Players
+          <select id="playerCountSelect">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </label>
+        <button id="applyButton" type="button">New</button>
+        <button id="restartButton" type="button">Restart</button>
+      </div>
+    </section>
+
+    <section class="game-stage">
+      <div class="turn-badge" id="turnBanner">Red to move</div>
+      <div class="floating-status floating-status-top" id="legend"></div>
+
+      <div class="board-shell">
+        <div class="board-frame">
+          <div class="board" id="board" aria-label="Chain Reaction board"></div>
+          <div class="board-fx" id="boardFx" aria-hidden="true"></div>
+        </div>
+        <div class="message-stack">
+          <div class="message" id="message">Select an empty cell or one already owned by your color.</div>
+          <div class="ai-status" id="aiStatus">Human vs Human mode.</div>
+        </div>
+      </div>
+
+      <div class="action-strip">
+        <button id="undoButton" class="action-button action-button-center" type="button" aria-label="Undo move">&#8634;</button>
+      </div>
+    </section>
+  </main>
+
+  <template id="cellTemplate">
+    <button class="cell" type="button">
+      <span class="cell-capacity"></span>
+      <span class="dots"></span>
+    </button>
+  </template>
+
+  <template id="playerCardTemplate">
+    <article class="player-card">
+      <span class="player-score"></span>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
