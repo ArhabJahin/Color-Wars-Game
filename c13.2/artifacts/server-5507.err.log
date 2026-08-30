@@ -1,0 +1,5 @@
+127.0.0.1 - - [25/May/2026 17:27:17] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 17:27:17] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 17:27:17] "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 - - [25/May/2026 17:27:27] "GET /styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [25/May/2026 17:38:01] "GET /artifacts/back-button-reference.mp4 HTTP/1.1" 200 -
